@@ -1,8 +1,10 @@
 <template>
-    <div class="left_headline">
+  <div class="left_headline">
     <h1 class="inner_text">1日の流れ</h1>
   </div>
+
   <div class="timeline_area">
+
     <div class="timeline">
       <p>7 : 00 ~</p>
       <div class="line"></div>
@@ -82,6 +84,7 @@
 
     <div class="remarks"><font-awesome-icon icon="star" class="star"/>土曜日のみ 全児縦割保育 7 ： 00 〜 17 ： 30まで開所</div>
     <div class="remarks"><font-awesome-icon icon="star" class="star"/>ちびっこ楽園（未入園児の体験入園 月2 〜 3回</div>
+
   </div>
 </template>
 

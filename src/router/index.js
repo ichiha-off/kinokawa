@@ -15,12 +15,29 @@ const routes = [
     path: '/life',
     name: 'Life',
     component: () => import('@/views/Life.vue')
+  },
+  {
+    path: '/access',
+    name: 'Access',
+    component: () => import('@/views/Access.vue')
+  },
+  {
+    path: '/info',
+    name: 'Info',
+    component: () => import('@/views/Info.vue')
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  },
 })
 
 export default router

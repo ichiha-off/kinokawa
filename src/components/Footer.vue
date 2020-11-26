@@ -3,10 +3,10 @@
 
     <nav class="footer_nav">
       <router-link to="/">トップページ</router-link>
-      <router-link to="/">園の概要</router-link>
-      <router-link to="/">園の生活</router-link>
-      <router-link to="/">アクセス</router-link>
-      <router-link to="/">求人・新着情報</router-link>
+      <router-link to="/about">園の概要</router-link>
+      <router-link to="/life">園の生活</router-link>
+      <router-link to="/access">アクセス</router-link>
+      <router-link to="/info">求人・新着情報</router-link>
     </nav>
 
     <div class="footer_contact_area">
@@ -15,9 +15,9 @@
         <img src="@/assets/logo.png" alt="logo">
         <div class="address">
           <div>社会福祉法人</div>
-          <div>紀之川保育園</div>
-          <div>〒640-8304</div>
-          <div>和歌山県和歌山市松島121-1</div>
+          <div>きのかわ保育園</div>
+          <div>〒111-1111</div>
+          <div>和歌山県和歌山市XXX町 1-12</div>
         </div>
       </div>
 
@@ -26,7 +26,7 @@
 
         <div class="contact_tell">
           <div>お電話での問い合わせ</div>
-          <div class="number">073-473-2003</div>
+          <div class="number">012-345-6789</div>
           <div class="contact_time">
             月曜日から金曜日（年末年始、祝日は除く）
             <br>受付時間 8：00 〜 16：00
@@ -35,7 +35,7 @@
 
         <div class="contact_mail">
           <div>メールでの問い合わせ</div>
-          <div class="mail">kinokawa@apricot.ocn.ne.jp</div>
+          <div class="mail">example@co.jp</div>
         </div>
       </div>
 

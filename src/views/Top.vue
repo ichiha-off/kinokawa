@@ -1,23 +1,34 @@
 <template>
   <div id="top">
+
     <div class="top_image">
       <div class="top_image_text">
         おおらかに、
         <br>のびやかに。
       </div>
-      <div class="top_image_news"></div>
+      <div class="top_image_news">
+        <div class="news_headline">
+          新着情報
+        </div>
+        <div class="sepa"></div>
+        <div class="news_title">
+          冬休み、年末年始の園について
+        </div>
+      </div>
     </div>
 
     <section class="top_news">
+
       <h1 class="top_news_headline">求人・新着情報</h1>
       <p>information</p>
+
       <div class="top_news_cards">
 
         <div class="top_news_card_item">
           <div class="top_news_card_image"></div>
           <div class="top_news_card_content">
             <div class="days">
-              2020年11月11日
+              2020年11月09日
             </div>
             <div class="title">
               冬休み、年末年始の園について
@@ -29,7 +40,7 @@
           <div class="top_news_card_image"></div>
           <div class="top_news_card_content">
             <div class="days">
-              2020年11月11日
+              2020年11月09日
             </div>
             <div class="title">
               冬休み、年末年始の園について
@@ -41,7 +52,7 @@
           <div class="top_news_card_image"></div>
           <div class="top_news_card_content">
             <div class="days">
-              2020年11月11日
+              2020年11月09日
             </div>
             <div class="title">
               冬休み、年末年始の園について
@@ -54,6 +65,7 @@
       <div class="top_news_button">
         <a href="/">もっと見る</a>
       </div>
+
     </section>
 
   </div>
@@ -101,13 +113,22 @@ export default {
     bottom: 64px;
     left: 32px;
     width: 60%;
-    height: 64px;
+    height: 48px;
+    padding: 8px 24px;
     background-color: #fff;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    .sepa {
+      width: 0;
+      height: 32px;
+      margin: 0 24px;
+      border-left: 3px dotted #3c3c3c;
+    }
   }
 
   .top_news {
-    margin: 208px auto;
+    margin: 200px auto;
     max-width: 1080px;
     .top_news_headline {
       color: #208719;

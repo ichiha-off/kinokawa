@@ -5,8 +5,8 @@
       <router-link to="/">トップページ</router-link>
       <router-link to="/about">園の概要</router-link>
       <router-link to="/life">園の生活</router-link>
-      <router-link to="/">アクセス</router-link>
-      <router-link to="/">求人・新着情報</router-link>
+      <router-link to="/access">アクセス</router-link>
+      <router-link to="/info">求人・新着情報</router-link>
     </div>
   </header>
 </template>

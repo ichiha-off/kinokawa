@@ -1,11 +1,13 @@
 <template>
   <li class="list_area">
+
     <div class="image_area">
       <div class="month_circle">
         {{ month }}
       </div>
       <img v-bind:src="image" alt="行事画像">
     </div>
+
     <div class="text_area">
       <div class="inner_text">
         <ul class="event_list" v-html="EventName">
@@ -13,6 +15,7 @@
         <p>{{ comment }}</p>
       </div>
     </div>
+
   </li>
 </template>
 
@@ -25,18 +28,13 @@
       'EventName',
       'comment',
     ],
-    data() {
-      return {
-        Event: this.EventName
-      }
-    }
   }
 </script>
 
 <style lang="scss">
   .year_list {
     max-width: 1080px;
-    margin: 0 auto 208px;
+    margin: 0 auto 200px;
     padding: 0 24px;
     list-style-type: none;
     > li {

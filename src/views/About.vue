@@ -5,7 +5,7 @@
       <img src="../assets/About_main.png" alt="About_main画像" class="main_image">
     </div>
 
-    <main>
+    <section class="about_sec">
       <div class="left_headline">
         <h1 class="inner_text">保育内容</h1>
       </div>
@@ -18,55 +18,61 @@
       </div>
 
       <h3 class="small_headline">保育実施時間について</h3>
-        <table class="time_graph">
-          <thead>
-            <tr>
-              <th></th>
-              <th>月 〜 金</th>
-              <th>土</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>保育時間</td>
-              <td>8：00 〜 16：00</td>
-              <td>8：00 〜 12：00</td>
-            </tr>
-            <tr>
-              <td>延長保育</td>
-              <td>7：00 〜 19：00</td>
-              <td>7：00 〜 17：30</td>
-            </tr>
-          </tbody>
-          <div class="remarks"><font-awesome-icon icon="star" class="star"/>金曜日は絵本の貸出を実施しています。</div>
-        </table>
+      <table class="time_graph">
+        <thead>
+          <tr>
+            <th></th>
+            <th>月 〜 金</th>
+            <th>土</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>保育時間</td>
+            <td>8：00 〜 16：00</td>
+            <td>8：00 〜 12：00</td>
+          </tr>
+          <tr>
+            <td>延長保育</td>
+            <td>7：00 〜 19：00</td>
+            <td>7：00 〜 17：30</td>
+          </tr>
+        </tbody>
+        <div class="remarks"><font-awesome-icon icon="star" class="star"/>金曜日は絵本の貸出を実施しています。</div>
+      </table>
 
       <h3 class="small_headline">対象年齢</h3>
-        <div class="about_section_text">
-          0歳（産休明け）から就学前まで
-        </div>
+      <div class="about_section_text">
+        0歳（産休明け）から就学前まで
+      </div>
       
       <h3 class="small_headline">給食</h3>
-        <div class="about_section_text">
-          乳幼児に必要な栄養価値と、栄養バランスを満たす献立にし、 毎月献立表を作成しています。
-          <br>日常生活の中で一番大切な水は電子水を使って調理し、主食の お米は自作の無農薬有機栽培で育てています。
-        </div>
-        <table class="lunch_graph">
-          <tbody>
-            <tr>
-              <td>完全給食（月 〜 土）</td>
-              <td>乳児はミルク・離乳食</td>
-            </tr>
-            <tr>
-              <td>おやつ</td>
-              <td>0 ･ 1 ･ 2歳児(10時と15時)、3歳以上児(15時)</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="about_section_text">
+        乳幼児に必要な栄養価値と、栄養バランスを満たす献立にし、 毎月献立表を作成しています。
+        <br>日常生活の中で一番大切な水は電子水を使って調理し、主食の お米は自作の無農薬有機栽培で育てています。
+      </div>
+
+      <table class="lunch_graph">
+        <tbody>
+          <tr>
+            <td>完全給食（月 〜 土）</td>
+            <td>乳児はミルク・離乳食</td>
+          </tr>
+          <tr>
+            <td>おやつ</td>
+            <td>0 ･ 1 ･ 2歳児(10時と15時)、3歳以上児(15時)</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <section class="target_sec">
 
       <div class="right_headline">
         <h1 class="inner_text">保育目標</h1>
       </div>
+
       <div class="target_content">
         <p>豊かな情報教育を通して・・・</p>
         <div class="target_cards">
@@ -91,6 +97,10 @@
         <p>4つの目標をかかがています。</p>
       </div>
 
+    </section>
+
+    <section class="business_sec">
+
       <div class="left_headline">
         <h1 class="inner_text">事業内容</h1>
       </div>
@@ -108,7 +118,8 @@
         </div>
       </div>
 
-    </main>
+    </section>
+
   </div>
 </template>
 
@@ -222,7 +233,7 @@
   }
 
   .business_content {
-    margin: 0 auto 208px;
+    margin: 0 auto 200px;
     .business_list {
       display: flex;
       justify-content: center;

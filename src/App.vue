@@ -27,7 +27,7 @@
   }
 
   .left_headline {
-    margin-top: 208px;
+    margin-top: 200px;
     margin-bottom: 104px;
     height: 100px;
     margin-right: 20%;
@@ -43,7 +43,7 @@
   }
 
   .right_headline {
-    margin-top: 208px;
+    margin-top: 200px;
     margin-bottom: 104px;
     height: 100px;
     text-align: center;
